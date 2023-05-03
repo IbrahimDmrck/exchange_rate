@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 03 May 2023, 14:02:25
+-- Üretim Zamanı: 03 May 2023, 14:05:53
 -- Sunucu sürümü: 10.4.27-MariaDB
 -- PHP Sürümü: 8.0.25
 
@@ -42,21 +42,21 @@ CREATE TABLE `transactions` (
 --
 
 INSERT INTO `transactions` (`Id`, `transforming`, `converted`, `amount`, `Date`, `calculation`, `user`) VALUES
-(13, 'USD', 'RUB', 45, '2023-05-01 00:00:00', 3616.5, 'ibrahimdmrck@gmail.com'),
-(14, 'AUD', 'GBP', 34, '2023-05-02 20:39:20', 18.234, 'ibrahimdmrck@gmail.com'),
-(15, 'EUR', 'USD', 67, '2023-05-02 20:55:09', 73.509, 'ibrahimdmrck@gmail.com'),
-(16, 'PKR', 'AZN', 456, '2023-05-02 20:55:18', 2.7318, 'ibrahimdmrck@gmail.com'),
-(17, 'CHF', 'JPY', 56765, '2023-05-02 20:55:27', 86932, 'ibrahimdmrck@gmail.com'),
-(18, 'GBP', 'AUD', 34, '2023-05-04 20:57:47', 63.397, 'ibrahimdmrck@gmail.com'),
-(19, 'QAR', 'AUD', 56, '2023-05-05 20:58:01', 22.79, 'ibrahimdmrck@gmail.com'),
-(20, 'USD', 'RUB', 9999, '2023-05-02 21:01:43', 803594, 'ibrahimdmrck@gmail.com'),
-(21, 'USD', 'RUB', 999999, '2023-05-01 21:02:06', 803674, 'ibrahimdmrck@gmail.com'),
-(22, 'USD', 'RUB', 9999999, '2023-05-02 21:02:22', 803674, 'ibrahimdmrck@gmail.com'),
-(23, 'QAR', 'AUD', 999999, '1899-12-01 00:00:00', 406965, 'ibrahimdmrck@gmail.com'),
-(24, 'QAR', 'AUD', 2147483647, '2023-05-01 21:03:20', 4.0696, 'ibrahimdmrck@gmail.com'),
-(25, 'IRR', 'RUB', 550, '2023-05-02 21:54:27', 104.65, 'ibrahimdmrck@gmail.com'),
-(26, 'DKK', 'EUR', 60, '2023-05-03 07:01:52', 8.0374, 'ibrahimdmrck@gmail.com'),
-(27, 'SEK', 'EUR', 450, '2023-05-03 12:56:20', 39.65, 'ibrahimdmrck@gmail.com');
+(13, 'USD', 'RUB', 45, '2023-05-01 00:00:00', 3616.5, 'test@gmail.com'),
+(14, 'AUD', 'GBP', 34, '2023-05-02 20:39:20', 18.234, 'test@gmail.com'),
+(15, 'EUR', 'USD', 67, '2023-05-02 20:55:09', 73.509, 'test@gmail.com'),
+(16, 'PKR', 'AZN', 456, '2023-05-02 20:55:18', 2.7318, 'test@gmail.com'),
+(17, 'CHF', 'JPY', 56765, '2023-05-02 20:55:27', 86932, 'test@gmail.com'),
+(18, 'GBP', 'AUD', 34, '2023-05-04 20:57:47', 63.397, 'test@gmail.com'),
+(19, 'QAR', 'AUD', 56, '2023-05-05 20:58:01', 22.79, 'test@gmail.com'),
+(20, 'USD', 'RUB', 9999, '2023-05-02 21:01:43', 803594, 'test@gmail.com'),
+(21, 'USD', 'RUB', 999999, '2023-05-01 21:02:06', 803674, 'test@gmail.com'),
+(22, 'USD', 'RUB', 9999999, '2023-05-02 21:02:22', 803674, 'test@gmail.com'),
+(23, 'QAR', 'AUD', 999999, '1899-12-01 00:00:00', 406965, 'test@gmail.com'),
+(24, 'QAR', 'AUD', 2147483647, '2023-05-01 21:03:20', 4.0696, 'test@gmail.com'),
+(25, 'IRR', 'RUB', 550, '2023-05-02 21:54:27', 104.65, 'test@gmail.com'),
+(26, 'DKK', 'EUR', 60, '2023-05-03 07:01:52', 8.0374, 'test@gmail.com'),
+(27, 'SEK', 'EUR', 450, '2023-05-03 12:56:20', 39.65, 'test@gmail.com');
 
 -- --------------------------------------------------------
 
