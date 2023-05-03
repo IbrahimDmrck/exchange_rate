@@ -5,11 +5,13 @@ TCMB tarafından sunulan <a href="https://www.tcmb.gov.tr/kurlar/today.xml">Gün
 </li>
 <li>
 Projeyi local de çalıştırmak için :
-1)Proje dosyasını indirin.
-2)Dosyayı rardan çıkarın.
-3)Local php sunucunuz içerisinde htdocs klasöri içerisine ayıkladığınız kalsörü taşıyınız.
-4)Klasör içerisinde 'database_copy' adlı klasörü açın ve phpMyAdmin veritabanına bu sql bilgisini içeri aktarın.
-5)Web tarayıcınızda ilgili proje dosyasını çağırın.
+<ol>
+<li>Proje dosyasını indirin.</li>
+<li>Dosyayı rardan çıkarın.</li>
+<li>Local php sunucunuz içerisinde htdocs klasöri içerisine ayıkladığınız kalsörü taşıyınız.</li>
+<li>Klasör içerisinde 'database_copy' adlı klasörü açın ve phpMyAdmin veritabanına bu sql bilgisini içeri aktarın.</li>
+<li>Web tarayıcınızda ilgili proje dosyasını çağırın.</li>
+</ol>
 </li>
 <li>
 email : test@gmail.com
