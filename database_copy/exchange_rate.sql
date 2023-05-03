@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 03 May 2023, 07:03:22
+-- Üretim Zamanı: 03 May 2023, 14:02:25
 -- Sunucu sürümü: 10.4.27-MariaDB
 -- PHP Sürümü: 8.0.25
 
@@ -55,7 +55,8 @@ INSERT INTO `transactions` (`Id`, `transforming`, `converted`, `amount`, `Date`,
 (23, 'QAR', 'AUD', 999999, '1899-12-01 00:00:00', 406965, 'ibrahimdmrck@gmail.com'),
 (24, 'QAR', 'AUD', 2147483647, '2023-05-01 21:03:20', 4.0696, 'ibrahimdmrck@gmail.com'),
 (25, 'IRR', 'RUB', 550, '2023-05-02 21:54:27', 104.65, 'ibrahimdmrck@gmail.com'),
-(26, 'DKK', 'EUR', 60, '2023-05-03 07:01:52', 8.0374, 'ibrahimdmrck@gmail.com');
+(26, 'DKK', 'EUR', 60, '2023-05-03 07:01:52', 8.0374, 'ibrahimdmrck@gmail.com'),
+(27, 'SEK', 'EUR', 450, '2023-05-03 12:56:20', 39.65, 'ibrahimdmrck@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -75,8 +76,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`Id`, `userName`, `userPassword`, `userEmail`) VALUES
-(1, 'ibrahim', '202cb962ac59075b964b07152d234b70', 'ibrahimdmrck@gmail.com'),
-(2, 'mehmet', '202cb962ac59075b964b07152d234b70', 'mehmet@gmail.com');
+(1, 'test', '202cb962ac59075b964b07152d234b70', 'test@gmail.com');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
@@ -102,7 +102,7 @@ ALTER TABLE `users`
 -- Tablo için AUTO_INCREMENT değeri `transactions`
 --
 ALTER TABLE `transactions`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- Tablo için AUTO_INCREMENT değeri `users`
